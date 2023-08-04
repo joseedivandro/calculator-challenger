@@ -20,6 +20,7 @@ function getFirstNPrimes(n) {
     }
     return primes;
 }
+// ... (código anterior)
 function checkPrime() {
     var inputNumber = document.getElementById('inputNumber').valueAsNumber;
     var resultElement = document.getElementById('result');
@@ -34,4 +35,11 @@ function checkPrime() {
 window.onload = function () {
     var first10Primes = getFirstNPrimes(10);
     console.log('First 10 prime numbers:', first10Primes);
+    // Adiciona o evento de tecla "Enter" ao input
+    var inputNumber = document.getElementById('inputNumber');
+    inputNumber.addEventListener('keydown', function (event) {
+        if (event.keyCode === 13) { // Verifica se a tecla pressionada é "Enter" (código 13)
+            checkPrime(); // Chama a função checkPrime() quando "Enter" é pressionado
+        }
+    });
 };
