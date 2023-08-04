@@ -33,4 +33,3 @@ function calculateResult(): void {
 
 document.getElementById("calculate")?.addEventListener("click", calculateResult);
 
-  
