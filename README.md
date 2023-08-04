@@ -8,6 +8,8 @@ To run the challenges:
 
 -open the code editor terminal or press ctrl+j
 
+-run npm install command
+
 - run "npm run" + challenge name
 
 example 1: open challenge 1, command -> npm run challenge1
