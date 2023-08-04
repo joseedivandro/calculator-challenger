@@ -4,7 +4,14 @@
   "description": "",
   "main": "",
   "scripts": {
-    "open-challenge1": "node -e \"require('opn')('src/challenge1/index.html')\""
+    "open-challenge1": "node -e \"require('opn')('src/challenge1/index.html')\"",
+    "open-challenge2": "node -e \"require('opn')('src/challenge2/index.html')\"",
+    "open-challenge3": "node -e \"require('opn')('src/challenge3/index.html')\"",
+    "open-challenge4": "node -e \"require('opn')('src/challenge3/index.html')\"",
+    "open-challenge5": "node -e \"require('opn')('src/challenge3/index.html')\"",
+    "open-challenge6": "node -e \"require('opn')('src/challenge3/index.html')\"",
+    "open-challenge7": "node -e \"require('opn')('src/challenge3/index.html')\"",
+    "open-challenge8": "node -e \"require('opn')('src/challenge3/index.html')\""
   },  
   "devDependencies": {
     "npm-run-all": "^4.1.5",
