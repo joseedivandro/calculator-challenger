@@ -12,6 +12,6 @@ To run the challenges:
 
 - run "npm run" + challenge name
 
-example 1: open challenge 1, command -> npm run challenge1
+example 1: open challenge 1, command -> npm run open-challenge1
 
-example 2: open challenge 8 -> npm run challenge8
+example 2: open challenge 8 -> npm run open-challenge8
